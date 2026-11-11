@@ -23,3 +23,43 @@ dist-ssr
 *.sln
 *.sw?
 blogsite (3).sql
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa
+id_rsa.*
+
+# Dependencies
+node_modules/
+vendor/
+.venv/
+venv/
+__pycache__/
+
+# Build outputs
+dist/
+dist-ssr/
+build/
+out/
+.next/
+coverage/
+*.class
+*.o
+*.obj
+*.dll
+*.so
+*.dylib
+*.exe
+
+# Local OS, editor, logs, and temporary files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.log
+*.tmp\n
